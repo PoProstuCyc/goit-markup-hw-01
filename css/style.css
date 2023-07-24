@@ -99,7 +99,6 @@ a {
 
 .contacts_list {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   color: var(--black_color);
 }
@@ -123,7 +122,6 @@ a {
   width: 264px;
   color: var(--color_light_blue);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -133,7 +131,6 @@ a {
 .heading {
   padding-top: 120px;
   padding-bottom: 72px;
-  color: var(--dark_color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -187,7 +184,6 @@ a {
 
 .text_our_goals {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   color: var(--light_gray_color);
 }
@@ -227,7 +223,6 @@ a {
   text-align: center;
   align-items: center;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--light_gray_color);
@@ -243,16 +238,32 @@ a {
   font-weight: 500;
   line-height: 1.2;
   padding-bottom: 8px;
-  color: var(--dark_color);
 }
 
 .type_app {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   color: var(--light_gray_color);
 }
 
 .paddings_apps {
   padding: 32px 16px;
+}
+
+.buttons_portfolio {
+  padding: 12px 24px;
+  color: var(--purple_color);
+  background-color: #f4f4fd;
+  border-color: #e7e9fc;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.buttons_portfolio:focus {
+  background-color: #404bbf;
+  color: var(--white_color);
+}
+.buttons_portfolio:hover {
+  background-color: #404bbf;
+  color: var(--white_color);
 }
