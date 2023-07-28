@@ -258,8 +258,7 @@ a {
 
 .list_buttons_portfolio {
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  padding: 96px 0px 72px 0px;
 }
 
 .buttons_portfolio {
