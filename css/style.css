@@ -20,7 +20,6 @@
 }
 
 body {
-  width: 1600px;
   font-family: Roboto, sans-serif;
   color: var(--main_color);
 }
@@ -43,6 +42,7 @@ ul {
   display: flex;
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -58,6 +58,10 @@ a {
   cursor: pointer;
 }
 
+.list_gap {
+  column-gap: 24px;
+}
+
 /*- style nagłówku -*/
 
 .logo {
@@ -67,6 +71,7 @@ a {
   font-weight: 800;
   line-height: 1.166;
   text-align: center;
+  margin-right: 76px;
 }
 
 .second_color_logo {
@@ -84,7 +89,9 @@ a {
   line-height: 1.5;
   color: var(--black_color);
 }
-
+.navigate {
+  margin-right: 332px;
+}
 .navigate_list:focus {
   color: var(--purple_color);
 }
@@ -109,6 +116,13 @@ a {
 
 .contacts_list:hover {
   color: var(--purple_color);
+}
+
+.spacing_header {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: baseline;
 }
 
 /*- stylizacja stopki -*/
@@ -180,12 +194,17 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  padding-bottom: 8px;
 }
 
 .text_our_goals {
   font-size: 16px;
   line-height: 1.5;
   color: var(--light_gray_color);
+}
+
+.size_list_our_goal {
+  width: 264px;
 }
 
 /*- sekcja what are w doing -*/
@@ -202,9 +221,10 @@ a {
   padding-bottom: 120px;
 }
 
-.our_team_list {
+.our_team_list_item {
   background-color: var(--background_color_white);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
 }
 
 .name {
@@ -229,25 +249,17 @@ a {
 }
 
 /*- stylizacje portfolio -*/
+
 .section_portfolio {
   background-color: var(--background_color_white);
 }
 
-.name_app {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  padding-bottom: 8px;
-}
+/*- stylizacja przycisków portfolio -*/
 
-.type_app {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--light_gray_color);
-}
-
-.paddings_apps {
-  padding: 32px 16px;
+.list_buttons_portfolio {
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .buttons_portfolio {
@@ -268,4 +280,36 @@ a {
   background-color: #404bbf;
   color: var(--white_color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/*- stylizacja aplikacji portfolio -*/
+
+.section_portfolio {
+  padding-bottom: 120px;
+}
+
+.name_app {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-bottom: 8px;
+}
+
+.type_app {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--light_gray_color);
+}
+
+.styles_apps {
+  padding: 32px 16px;
+  border-right: solid 1px #e7e9fc;
+  border-bottom: solid 1px #e7e9fc;
+  border-left: solid 1px #e7e9fc;
+}
+
+.apps_portfolio {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
