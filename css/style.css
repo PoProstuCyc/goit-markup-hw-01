@@ -258,7 +258,7 @@ a {
 
 .list_buttons_portfolio {
   justify-content: center;
-  padding: 96px 0px 72px 0px;
+  padding-bottom: 72px;
 }
 
 .buttons_portfolio {
@@ -284,7 +284,7 @@ a {
 /*- stylizacja aplikacji portfolio -*/
 
 .section_portfolio {
-  padding-bottom: 120px;
+  padding: 96px 0px 120px 0px;
 }
 
 .name_app {
