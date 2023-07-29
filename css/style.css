@@ -145,7 +145,6 @@ a {
 /*- stylizacja nagłówków sekcji -*/
 
 .heading {
-  padding-top: 120px;
   padding-bottom: 72px;
   text-align: center;
   font-size: 36px;
@@ -217,6 +216,7 @@ a {
 /*- sekcja what are w doing -*/
 
 .section_what_are_we_doing {
+  padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--background_color_white);
 }
@@ -225,6 +225,7 @@ a {
 
 .section_our_team {
   background-color: var(--background_color_light_blue);
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
