@@ -193,6 +193,7 @@ a {
 
 .section_our_goals {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .second_header {
@@ -216,7 +217,6 @@ a {
 /*- sekcja what are w doing -*/
 
 .section_what_are_we_doing {
-  padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--background_color_white);
 }
