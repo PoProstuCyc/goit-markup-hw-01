@@ -90,6 +90,7 @@ a {
   color: var(--black_color);
 }
 .navigate {
+  display: flex;
   margin-right: 332px;
   align-items: center;
 }
