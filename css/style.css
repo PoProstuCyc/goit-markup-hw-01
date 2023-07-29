@@ -210,6 +210,12 @@ a {
   color: var(--light_gray_color);
 }
 
+.list_our_goals {
+  display: flex;
+  list-style: none;
+  column-gap: 24px;
+}
+
 .size_list_our_goal {
   width: 264px;
 }
