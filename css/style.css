@@ -91,6 +91,7 @@ a {
 }
 .navigate {
   margin-right: 332px;
+  align-items: center;
 }
 .navigate_list:focus {
   color: var(--purple_color);
