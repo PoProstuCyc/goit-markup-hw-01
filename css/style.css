@@ -38,11 +38,6 @@ img {
   display: block;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -60,6 +55,11 @@ a {
 
 .list_gap {
   column-gap: 24px;
+}
+
+.list_style {
+  display: flex;
+  list-style: none;
 }
 
 /*- style nagłówku -*/
