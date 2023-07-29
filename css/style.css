@@ -83,7 +83,7 @@ a {
 }
 
 .navigate_list {
-  text-align: center;
+  align-items: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
