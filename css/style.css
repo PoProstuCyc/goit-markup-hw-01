@@ -200,6 +200,10 @@ a {
 
 /*- sekcja our goals -*/
 
+.visually-hidden {
+  @include visually-hidden-focusable;
+}
+
 .section_our_goals {
   padding-top: 120px;
   padding-bottom: 120px;
