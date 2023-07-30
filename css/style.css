@@ -201,7 +201,7 @@ a {
 /*- sekcja our goals -*/
 
 .visually-hidden {
-  @include visually-hidden-focusable;
+  overflow: hidden;
 }
 
 .section_our_goals {
