@@ -217,7 +217,7 @@ a {
 }
 
 .size_list_our_goal {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 /*- sekcja what are w doing -*/
