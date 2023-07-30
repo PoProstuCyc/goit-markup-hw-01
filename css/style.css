@@ -107,8 +107,6 @@ a {
 }
 
 .contacts {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .list_contacts {
@@ -116,6 +114,8 @@ a {
   gap: 40px;
   align-items: center;
   list-style: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts_item {
