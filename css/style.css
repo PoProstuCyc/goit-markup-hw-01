@@ -69,6 +69,8 @@ a {
   line-height: 1.166;
   text-align: center;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .second_color_logo {
@@ -98,8 +100,6 @@ a {
   font-weight: 500;
   line-height: 1.5;
   color: var(--black_color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .navigate_list_item:focus {
