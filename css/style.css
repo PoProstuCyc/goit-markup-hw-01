@@ -338,10 +338,8 @@ a {
 .apps_portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   list-style: none;
   justify-content: center;
-  margin-bottom: 76px;
 }
 
 .section_portfolio {
