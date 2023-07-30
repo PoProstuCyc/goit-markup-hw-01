@@ -67,7 +67,6 @@ a {
   line-height: 1.166;
   text-align: center;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .second_color_logo {
@@ -82,6 +81,8 @@ a {
   display: flex;
   margin-right: 332px;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .list_navigate {
@@ -105,6 +106,11 @@ a {
 
 .navigate_list_item:hover {
   color: var(--purple_color);
+}
+
+.contacts {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .list_contacts {
