@@ -73,41 +73,51 @@ a {
   line-height: 1.16;
 }
 
-.navigate_list {
+.navigate {
+  display: flex;
+  margin-right: 332px;
+  align-items: center;
+}
+
+.list_navigate {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navigate_list_item {
   align-items: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   color: var(--black_color);
 }
-.navigate {
+
+.navigate_list_item:focus {
+  color: var(--purple_color);
+}
+
+.navigate_list_item:hover {
+  color: var(--purple_color);
+}
+
+.list_contacts {
   display: flex;
-  margin-right: 332px;
-  align-items: center;
-}
-.navigate_list:focus {
-  color: var(--purple_color);
+  gap: 40px;
+  list-style: none;
 }
 
-.navigate_list:hover {
-  color: var(--purple_color);
-}
-
-.space {
-  margin-right: 40px;
-}
-
-.contacts_list {
+.contacts_item {
   font-size: 16px;
   line-height: 1.5;
   color: var(--black_color);
 }
 
-.contacts_list:focus {
+.contacts_item:focus {
   color: var(--purple_color);
 }
 
-.contacts_list:hover {
+.contacts_item:hover {
   color: var(--purple_color);
 }
 
