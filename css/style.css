@@ -83,8 +83,6 @@ a {
   display: flex;
   margin-right: 332px;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .list_navigate {
@@ -92,6 +90,8 @@ a {
   display: flex;
   gap: 40px;
   list-style: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigate_list_item {
