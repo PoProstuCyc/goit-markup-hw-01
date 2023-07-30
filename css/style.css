@@ -51,6 +51,8 @@ a {
 
 .row_header {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .cursor {
