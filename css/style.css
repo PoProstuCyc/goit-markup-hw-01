@@ -106,11 +106,6 @@ a {
   color: var(--purple_color);
 }
 
-.contacts {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .list_contacts {
   display: flex;
   gap: 40px;
