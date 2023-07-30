@@ -266,6 +266,10 @@ a {
 }
 
 .worker_data {
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .name {
@@ -276,9 +280,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
-  padding-top: 32px;
-  padding-right: 16px;
-  padding-left: 16px;
 }
 
 .profession {
@@ -288,9 +289,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--light_gray_color);
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-bottom: 32px;
 }
 
 /*- stylizacje portfolio -*/
