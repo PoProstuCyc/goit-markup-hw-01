@@ -224,10 +224,12 @@ a {
 }
 
 .list_our_goals {
-  width: calc((100% - 72px) / 4);
   display: flex;
   list-style: none;
   gap: 24px;
+}
+.list_item_our_goals {
+  width: calc((100% - 72px) / 4);
 }
 
 /*- sekcja what are w doing -*/
