@@ -58,10 +58,6 @@ a {
 }
 
 /*- style nagłówku -*/
-.asd {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 
 .logo {
   color: var(--black_color);
@@ -110,7 +106,9 @@ a {
   color: var(--purple_color);
 }
 
-.contacts {
+.ass {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .list_contacts {
@@ -124,8 +122,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   color: var(--black_color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts_item:focus {
