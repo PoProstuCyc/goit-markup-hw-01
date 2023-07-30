@@ -145,7 +145,7 @@ a {
 /*- stylizacja nagłówków sekcji -*/
 
 .heading {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
