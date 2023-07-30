@@ -53,15 +53,6 @@ a {
   cursor: pointer;
 }
 
-.list_gap {
-  column-gap: 24px;
-}
-
-.list_style {
-  display: flex;
-  list-style: none;
-}
-
 /*- style nagłówku -*/
 
 .logo {
@@ -227,12 +218,23 @@ a {
   background-color: var(--background_color_white);
 }
 
+.list_what_are_we_doing {
+  gap: 24px;
+  display: flex;
+  list-style: none;
+}
 /*- sekcja our team -*/
 
 .section_our_team {
   background-color: var(--background_color_light_blue);
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.list_our_team {
+  gap: 24px;
+  display: flex;
+  list-style: none;
 }
 
 .our_team_list_item {
