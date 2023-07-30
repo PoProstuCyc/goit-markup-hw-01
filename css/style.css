@@ -88,8 +88,6 @@ a {
   display: flex;
   gap: 40px;
   list-style: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .navigate_list_item {
@@ -116,6 +114,8 @@ a {
   gap: 40px;
   align-items: center;
   list-style: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts_item {
