@@ -1,218 +1,363 @@
-<!DOCTYPE html>
-<html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-03</title>
+/*- style koloru-*/
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
+:root {
+  --background_color_dark: rgba(46, 47, 66, 1);
+  --background_color_white: rgba(255, 255, 255, 1);
+  --background_color_light_blue: rgba(244, 244, 253, 1);
+  --color_light_blue: rgba(244, 244, 253, 1);
+  --dark_color: rgba(46, 47, 66, 1);
+  --black_color: rgba(0, 0, 0, 1);
+  --white_color: rgba(255, 255, 255, 1);
+  --purple_color: rgba(77, 90, 229, 1);
+  --light_gray_color: rgba(67, 68, 85, 1);
+}
 
-  <body>
-    <!--nagłówek-->
-    <header class="asd">
-      <div class="row_header container">
-        <!--nawigacja-->
-        <nav class="navigate">
-          <a href="index.html" class="logo">
-            <span class="second_color_logo">WEB</span>STUDIO</a
-          >
-          <ul class="list_navigate">
-            <li>
-              <a class="cursor navigate_list_item" href="index.html">Studio</a>
-            </li>
-            <li>
-              <a class="cursor navigate_list_item" href="portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li><a class="cursor navigate_list_item" href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <!--kontakty-->
-        <address class="contacts">
-          <ul class="list_contacts">
-            <li>
-              <a class="contacts_item" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contacts_item" href="tel:+11(000)1111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-    <!--główna część-->
-    <main>
-      <section class="section_portfolio">
-        <div class="container">
-          <ul class="list_buttons_portfolio list_gap list_style">
-            <li>
-              <button class="cursor buttons_portfolio" type="button">
-                All
-              </button>
-            </li>
-            <li>
-              <button class="cursor buttons_portfolio" type="button">
-                Web Site
-              </button>
-            </li>
-            <li>
-              <button class="cursor buttons_portfolio" type="button">
-                App
-              </button>
-            </li>
-            <li>
-              <button class="cursor buttons_portfolio" type="button">
-                Design
-              </button>
-            </li>
-            <li>
-              <button class="cursor buttons_portfolio" type="button">
-                Marketing
-              </button>
-            </li>
-          </ul>
-          <ul class="apps_portfolio list_style">
-            <li>
-              <img
-                src="images/purpleapp.jpg"
-                alt="aplikacja"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Banking App Interface Concept</p>
-                <p class="type_app">App</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/payphone.jpg"
-                alt="telefon"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Cashless Payment</p>
-                <p class="type_app">Marketing</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/laptop.jpg"
-                alt="laptop"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Meditation App</p>
-                <p class="type_app">App</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/car.jpg"
-                alt="kerownica"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Taxi Service</p>
-                <p class="type_app">Marketing</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/phone.jpg"
-                alt="telefon"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Screen Illustrations</p>
-                <p class="type_app">Design</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/woman.jpg"
-                alt="kobieta"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Online Courses</p>
-                <p class="type_app">Marketing</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/instagram.jpg"
-                alt="instagram"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Instagram Stories Concept</p>
-                <p class="type_app">Design</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/tree.jpg"
-                alt="drzewo"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Organic Food</p>
-                <p class="type_app">Web Site</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src="images/coffee.jpg"
-                alt="kawa"
-                width="360"
-                height="300"
-              />
-              <div class="styles_apps">
-                <p class="name_app">Fresh Coffee</p>
-                <p class="type_app">Web Site</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <!--stopka-->
-    <footer class="space_footer">
-      <div class="container">
-        <a href="index.html" class="logo logo_footer">
-          <span class="second_color_logo">WEB</span
-          ><span class="light_color_logo">STUDIO</span>
-        </a>
-        <p class="text_footer">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
-    </footer>
-  </body>
-</html>
+/*- style ogólne -*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main_color);
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
+}
+
+footer {
+  background-color: var(--background_color_dark);
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row_header {
+  display: flex;
+  align-items: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/*- style nagłówku -*/
+
+.logo {
+  color: var(--black_color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.166;
+  text-align: center;
+  margin-right: 76px;
+}
+
+.second_color_logo {
+  color: var(--purple_color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+}
+
+.navigate {
+  display: flex;
+  margin-right: 332px;
+  align-items: center;
+}
+
+.list_navigate {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navigate_list_item {
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--black_color);
+  padding: 24px 0;
+}
+
+.navigate_list_item:focus {
+  color: var(--purple_color);
+}
+
+.navigate_list_item:hover {
+  color: var(--purple_color);
+}
+
+.list_contacts {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  list-style: none;
+  font-style: normal;
+}
+
+.contacts_item {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--black_color);
+}
+
+.contacts_item:focus {
+  color: var(--purple_color);
+}
+
+.contacts_item:hover {
+  color: var(--purple_color);
+}
+/*- stylizacja stopki -*/
+.logo_footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.space_footer {
+  padding: 100px 0;
+}
+
+.light_color_logo {
+  color: var(--color_light_blue);
+}
+
+.text_footer {
+  width: 264px;
+  color: var(--color_light_blue);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/*- stylizacja nagłówków sekcji -*/
+
+.heading {
+  margin-bottom: 72px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+/*- sekcja zamówienia -*/
+
+.section_order_service {
+  background-color: var(--background_color_dark);
+  text-align: center;
+  align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.main_text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: var(--white_color);
+  margin-bottom: 48px;
+}
+
+.button_index {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+  background-color: var(--purple_color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: var(--white_color);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+}
+
+/*- sekcja our goals -*/
+
+.visually-hidden {
+  overflow: hidden;
+}
+
+.section_our_goals {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.second_header {
+  color: var(--black_color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.text_our_goals {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--light_gray_color);
+}
+
+.list_our_goals {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.list_item_our_goals {
+  width: calc((100% - 72px) / 4);
+}
+
+/*- sekcja what are w doing -*/
+
+.section_what_are_we_doing {
+  padding-bottom: 120px;
+  background-color: var(--background_color_white);
+}
+
+.list_what_are_we_doing {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.list_item_what_are_we_doing {
+  width: calc((100% - 48px) / 3);
+}
+/*- sekcja our team -*/
+
+.section_our_team {
+  background-color: var(--background_color_light_blue);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.list_our_team {
+  gap: 24px;
+  display: flex;
+  list-style: none;
+}
+
+.our_team_list_item {
+  width: calc((100% - 72px) / 4);
+  background-color: var(--background_color_white);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.worker_data {
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
+.name {
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+}
+
+.profession {
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--light_gray_color);
+}
+
+/*- stylizacje portfolio -*/
+
+.section_portfolio {
+  background-color: var(--background_color_white);
+}
+
+/*- stylizacja przycisków portfolio -*/
+
+.list_buttons_portfolio {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  justify-content: center;
+  padding-bottom: 72px;
+}
+
+.buttons_portfolio {
+  padding: 12px 24px;
+  color: var(--purple_color);
+  background-color: #f4f4fd;
+  border-color: #e7e9fc;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.buttons_portfolio:focus {
+  background-color: #404bbf;
+  color: var(--white_color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.buttons_portfolio:hover {
+  background-color: #404bbf;
+  color: var(--white_color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/*- stylizacja aplikacji portfolio -*/
+
+.section_portfolio {
+  padding: 96px 0px 120px 0px;
+}
+
+.name_app {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-bottom: 8px;
+}
+
+.type_app {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--light_gray_color);
+}
+
+.styles_apps {
+  padding: 32px 16px;
+  border-right: solid 1px #e7e9fc;
+  border-bottom: solid 1px #e7e9fc;
+  border-left: solid 1px #e7e9fc;
+}
+
+.apps_portfolio {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
