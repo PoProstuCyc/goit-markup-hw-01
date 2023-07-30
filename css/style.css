@@ -96,6 +96,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   color: var(--black_color);
+  padding: 24px 0;
 }
 
 .navigate_list_item:focus {
