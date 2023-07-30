@@ -116,6 +116,7 @@ a {
 .list_contacts {
   display: flex;
   gap: 40px;
+  align-items: center;
   list-style: none;
 }
 
