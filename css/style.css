@@ -332,6 +332,15 @@ a {
 
 /*- stylizacja aplikacji portfolio -*/
 
+.apps_portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 76px;
+}
+
 .section_portfolio {
   padding: 96px 0px 120px 0px;
 }
@@ -354,10 +363,4 @@ a {
   border-right: solid 1px #e7e9fc;
   border-bottom: solid 1px #e7e9fc;
   border-left: solid 1px #e7e9fc;
-}
-
-.apps_portfolio {
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
 }
