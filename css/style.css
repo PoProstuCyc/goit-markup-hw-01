@@ -303,6 +303,9 @@ a {
 /*- stylizacja przycisków portfolio -*/
 
 .list_buttons_portfolio {
+  display: flex;
+  list-style: none;
+  gap: 24px;
   justify-content: center;
   padding-bottom: 72px;
 }
