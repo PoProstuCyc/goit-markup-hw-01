@@ -266,6 +266,10 @@ a {
 }
 
 .worker_data {
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .name {
