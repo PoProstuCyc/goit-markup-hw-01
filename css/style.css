@@ -129,14 +129,6 @@ a {
 .contacts_item:hover {
   color: var(--purple_color);
 }
-
-.spacing_header {
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  align-items: baseline;
-}
-
 /*- stylizacja stopki -*/
 
 .light_color_logo {
