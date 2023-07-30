@@ -106,16 +106,12 @@ a {
   color: var(--purple_color);
 }
 
-.contacts {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .list_contacts {
   display: flex;
   gap: 40px;
   align-items: center;
   list-style: none;
+  padding: 24px 0;
 }
 
 .contacts_item {
