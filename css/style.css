@@ -219,8 +219,8 @@ a {
 }
 
 .list_what_are_we_doing {
-  gap: 24px;
   display: flex;
+  gap: 24px;
   list-style: none;
 }
 /*- sekcja our team -*/
