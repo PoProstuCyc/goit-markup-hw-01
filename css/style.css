@@ -114,6 +114,8 @@ a {
   display: flex;
   gap: 40px;
   list-style: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts_item {
