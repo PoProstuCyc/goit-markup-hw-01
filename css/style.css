@@ -259,13 +259,10 @@ a {
 }
 
 .our_team_list_item {
+  width: calc((100% - 72px) / 4);
   background-color: var(--background_color_white);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
-  padding-top: 32px;
-  padding-right: 16px;
-  padding-bottom: 32px;
-  padding-left: 16px;
 }
 
 .worker_data {
