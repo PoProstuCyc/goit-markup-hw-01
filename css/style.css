@@ -235,6 +235,8 @@ a {
   display: flex;
   gap: 24px;
   list-style: none;
+}
+.list_item_what_are_we_doing {
   width: calc((100% - 48px) / 3);
 }
 /*- sekcja our team -*/
