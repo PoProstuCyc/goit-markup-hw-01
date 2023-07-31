@@ -336,6 +336,8 @@ a {
 /*- stylizacja aplikacji portfolio -*/
 
 .apps_portfolio {
+  row-gap: 48px;
+  column-gap: 24px;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
