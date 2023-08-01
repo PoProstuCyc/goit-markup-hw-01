@@ -27,6 +27,7 @@ body {
 
 header {
   border-bottom: 1px solid var(--border_color);
+  padding: 24px 0;
 }
 
 footer {
@@ -365,4 +366,5 @@ a {
   border-right: solid 1px #e7e9fc;
   border-bottom: solid 1px #e7e9fc;
   border-left: solid 1px #e7e9fc;
+  background-color: var(--white_color);
 }
