@@ -62,7 +62,7 @@ a {
 /*- style nagłówku -*/
 
 .logo {
-  color: var(--black_color);
+  color: var(--dark_color);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -97,7 +97,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--black_color);
+  color: var(--dark_color);
 }
 
 .navigate_list_item:focus {
@@ -119,7 +119,7 @@ a {
 .contacts_item {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--black_color);
+  color: var(--dark_color);
 }
 
 .contacts_item:focus {
@@ -194,8 +194,6 @@ a {
   border: none;
   color: var(--white_color);
   display: block;
-  min-width: 169px;
-  height: 56px;
 }
 
 /*- sekcja our goals -*/
@@ -210,7 +208,7 @@ a {
 }
 
 .second_header {
-  color: var(--black_color);
+  color: var(--dark_color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
