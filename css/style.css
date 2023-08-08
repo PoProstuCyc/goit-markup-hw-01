@@ -374,6 +374,11 @@ a {
   fill: var(--our_clients_color);
 }
 
+.list_item_our_customers:hover {
+  fill: var(--purple_color);
+  border-color: var(--purple_color);
+}
+
 /*- stylizacje portfolio -*/
 
 .section_portfolio {
