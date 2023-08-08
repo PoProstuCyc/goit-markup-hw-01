@@ -339,7 +339,7 @@ a {
   gap: 24px;
 }
 
-.list_item_list {
+.li_social_media {
   border-radius: 50%;
   align-items: center;
   background-color: var(--purple_color);
