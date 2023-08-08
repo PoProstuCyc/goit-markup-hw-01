@@ -12,9 +12,9 @@
   --light_gray_color: rgba(67, 68, 85, 1);
   --border_color: rgb(231 233 252);
   --our_clients_color: rgb(142 143 153);
-  --background_buttons: (#f4f4fd);
-  --buttons_focus_hover_color: (#404bbf);
-  --border_color_apps: (#e7e9fc);
+  --background_buttons: #f4f4fd;
+  --buttons_focus_hover_color: #404bbf;
+  --border_color_apps: #e7e9fc;
 }
 
 /*- style ogólne -*/
