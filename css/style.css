@@ -191,7 +191,8 @@ a {
 /*- sekcja zamówienia -*/
 
 .section_order_service {
-  background-image: url(../images/background_photo.jpg);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/background_photo.jpg);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -199,7 +200,6 @@ a {
   align-items: center;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7));
 }
 
 .main_text {
@@ -446,8 +446,7 @@ a {
   border-left: solid 1px #e7e9fc;
 }
 
-.li_apps_portfolio :hover {
-  border: 1px solid var(--cloud, #f4f4fd);
+.li_apps_portfolio:hover {
   background: var(--white, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
