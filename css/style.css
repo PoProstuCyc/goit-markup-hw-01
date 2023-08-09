@@ -395,7 +395,7 @@ a {
 
 .list_item_our_customers:hover {
   fill: var(--focus_hover);
-  border-color: var(--focus_hove);
+  border-color: var(--focus_hover);
 }
 
 /*- stylizacje portfolio -*/
