@@ -12,9 +12,9 @@
   --light_gray_color: rgba(67, 68, 85, 1);
   --border_color: rgb(231 233 252);
   --our_clients_color: rgb(142 143 153);
-  --background_buttons: #f4f4fd;
-  --buttons_focus_hover_color: #404bbf;
-  --border_color_apps: #e7e9fc;
+  --background_buttons: rgb(244 244 253);
+  --focus_hover_color: rgba(64, 75, 191, 1);
+  --focus_hover_second_color: rgba(49, 208, 170, 1);
 }
 
 /*- style ogólne -*/
@@ -104,11 +104,11 @@ a {
 }
 
 .navigate_list_item:focus {
-  color: var(--purple_color);
+  color: var(--focus_hover_color);
 }
 
 .navigate_list_item:hover {
-  color: var(--purple_color);
+  color: var(--focus_hover_color);
 }
 
 .list_contacts {
@@ -170,7 +170,8 @@ a {
 }
 
 .li_social_media_footer {
-  padding: 8px;
+  display: flex;
+  justify-content: center;
   align-items: center;
   background-color: var(--purple_color);
   fill: var(--color_light_blue);
@@ -180,9 +181,11 @@ a {
 }
 
 .li_social_media_footer:hover {
+  background-color: var(--focus_hover_second_color);
 }
 
 .li_social_media_footer:focus {
+  background-color: var(--focus_hover_second_color);
 }
 
 /*- stylizacja nagłówków sekcji -*/
@@ -235,10 +238,10 @@ a {
 }
 
 .button_index :focus {
-  background-color: var(--buttons_focus_hover_color);
+  background-color: var(--focus_hover_color);
 }
 .button_index :hover {
-  background-color: var(--buttons_focus_hover_color);
+  background-color: var(--focus_hover_color);
 }
 
 /*- sekcja our goals -*/
@@ -349,15 +352,22 @@ a {
 }
 
 .li_social_media {
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
   align-items: center;
   background-color: var(--purple_color);
-  padding: 12px;
   width: 40px;
   height: 40px;
   fill: var(--color_light_blue);
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.li_social_media:hover {
+  background-color: var(--focus_hover_second_color);
+}
+
+.li_social_media:focus {
+  background-color: var(--focus_hover_second_color);
 }
 
 /*- stylizacja nasi klienci -*/
@@ -384,8 +394,8 @@ a {
 }
 
 .list_item_our_customers:hover {
-  fill: var(--purple_color);
-  border-color: var(--purple_color);
+  fill: var(--focus_hover_color);
+  border-color: var(--focus_hover_color);
 }
 
 /*- stylizacje portfolio -*/
@@ -415,13 +425,13 @@ a {
 
 .buttons_portfolio:focus {
   border: 1px solid transparent;
-  background-color: var(--buttons_focus_hover_color);
+  background-color: var(--focus_hover_color);
   color: var(--white_color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .buttons_portfolio:hover {
   border: 1px solid transparent;
-  background-color: var(--buttons_focus_hover_color);
+  background-color: var(--focus_hover_color);
   color: var(--white_color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -455,9 +465,9 @@ a {
 
 .styles_apps {
   padding: 32px 16px;
-  border-right: solid 1px var(--border_color_apps);
-  border-bottom: solid 1px var(--border_color_apps);
-  border-left: solid 1px var(--border_color_apps);
+  border-right: solid 1px var(--border_color);
+  border-bottom: solid 1px var(--border_color);
+  border-left: solid 1px var(--border_color);
 }
 
 .li_apps_portfolio:hover {
