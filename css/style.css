@@ -1,20 +1,20 @@
 /*- style koloru-*/
 
 :root {
-  --background_color_dark: rgba(46, 47, 66, 1);
-  --background_color_white: rgba(255, 255, 255, 1);
-  --background_color_light_blue: rgba(244, 244, 253, 1);
-  --color_light_blue: rgba(244, 244, 253, 1);
-  --dark_color: rgba(46, 47, 66, 1);
-  --black_color: rgba(0, 0, 0, 1);
-  --white_color: rgba(255, 255, 255, 1);
-  --purple_color: rgba(77, 90, 229, 1);
-  --light_gray_color: rgba(67, 68, 85, 1);
-  --border_color: rgb(231 233 252);
-  --our_clients_color: rgb(142 143 153);
-  --background_buttons: rgb(244 244 253);
-  --focus_hover_color: rgba(64, 75, 191, 1);
-  --focus_hover_second_color: rgba(49, 208, 170, 1);
+  --background_dark: rgba(46, 47, 66, 1);
+  --background_white: rgba(255, 255, 255, 1);
+  --background_light_blue: rgba(244, 244, 253, 1);
+  --light_blue: rgba(244, 244, 253, 1);
+  --dark: rgba(46, 47, 66, 1);
+  --black: rgba(0, 0, 0, 1);
+  --white: rgba(255, 255, 255, 1);
+  --purple: rgba(77, 90, 229, 1);
+  --light_gray: rgba(67, 68, 85, 1);
+  --border: rgb(231, 233, 252);
+  --our_clients: rgb(142, 143, 153);
+  --background_buttons: rgb(244, 244, 253);
+  --focus_hover: rgba(64, 75, 191, 1);
+  --focus_hover_sm_footer: rgba(49, 208, 170, 1);
 }
 
 /*- style ogólne -*/
@@ -26,16 +26,16 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: var(--main_color);
+  color: var(--main);
 }
 
 header {
-  border-bottom: 1px solid var(--border_color);
+  border-bottom: 1px solid var(--border);
   padding: 24px 0;
 }
 
 footer {
-  background-color: var(--background_color_dark);
+  background-color: var(--background_dark);
   display: flex;
 }
 
@@ -65,7 +65,7 @@ a {
 /*- style nagłówku -*/
 
 .logo {
-  color: var(--dark_color);
+  color: var(--dark);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -75,7 +75,7 @@ a {
 }
 
 .second_color_logo {
-  color: var(--purple_color);
+  color: var(--purple);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -100,15 +100,15 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--dark_color);
+  color: var(--dark);
 }
 
 .navigate_list_item:focus {
-  color: var(--focus_hover_color);
+  color: var(--focus_hover);
 }
 
 .navigate_list_item:hover {
-  color: var(--focus_hover_color);
+  color: var(--focus_hover);
 }
 
 .list_contacts {
@@ -122,15 +122,15 @@ a {
 .contacts_item {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--dark_color);
+  color: var(--dark);
 }
 
 .contacts_item:focus {
-  color: var(--purple_color);
+  color: var(--purple);
 }
 
 .contacts_item:hover {
-  color: var(--purple_color);
+  color: var(--purple);
 }
 /*- stylizacja stopki -*/
 .logo_footer {
@@ -143,12 +143,12 @@ a {
 }
 
 .light_color_logo {
-  color: var(--color_light_blue);
+  color: var(--light_blue);
 }
 
 .text_footer {
   width: 264px;
-  color: var(--color_light_blue);
+  color: var(--light_blue);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -160,7 +160,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--white_color);
+  color: var(--white);
 }
 
 .footer_social_media {
@@ -173,19 +173,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--purple_color);
-  fill: var(--color_light_blue);
+  background-color: var(--purple);
+  fill: var(--light_blue);
   border-radius: 50%;
   width: 40px;
   height: 40px;
 }
 
 .li_social_media_footer:hover {
-  background-color: var(--focus_hover_second_color);
+  background-color: var(--focus_hover_sm_footer);
 }
 
 .li_social_media_footer:focus {
-  background-color: var(--focus_hover_second_color);
+  background-color: var(--focus_hover_sm_footer);
 }
 
 /*- stylizacja nagłówków sekcji -*/
@@ -221,7 +221,7 @@ a {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  color: var(--white_color);
+  color: var(--white);
   margin-bottom: 48px;
 }
 
@@ -229,19 +229,19 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
-  background-color: var(--purple_color);
+  background-color: var(--purple);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  color: var(--white_color);
+  color: var(--white);
   display: block;
 }
 
-.button_index :focus {
-  background-color: var(--focus_hover_color);
+.button_index:focus {
+  background-color: var(--focus_hover);
 }
-.button_index :hover {
-  background-color: var(--focus_hover_color);
+.button_index:hover {
+  background-color: var(--focus_hover);
 }
 
 /*- sekcja our goals -*/
@@ -252,7 +252,7 @@ a {
 }
 
 .second_header {
-  color: var(--dark_color);
+  color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -262,7 +262,7 @@ a {
 .text_our_goals {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--light_gray_color);
+  color: var(--light_gray);
 }
 
 .list_our_goals {
@@ -279,14 +279,14 @@ a {
   padding: 24px 100px;
   margin-bottom: 8px;
   border-radius: 4px;
-  background-color: var(--background_color_light_blue);
+  background-color: var(--background_light_blue);
 }
 
 /*- sekcja what are w doing -*/
 
 .section_what_are_we_doing {
   padding-bottom: 120px;
-  background-color: var(--background_color_white);
+  background-color: var(--background_white);
 }
 
 .list_what_are_we_doing {
@@ -300,7 +300,7 @@ a {
 /*- sekcja our team -*/
 
 .section_our_team {
-  background-color: var(--background_color_light_blue);
+  background-color: var(--background_light_blue);
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -313,7 +313,7 @@ a {
 
 .our_team_list_item {
   width: calc((100% - 72px) / 4);
-  background-color: var(--background_color_white);
+  background-color: var(--background_white);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
 }
@@ -341,7 +341,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--light_gray_color);
+  color: var(--light_gray);
   margin-bottom: 8px;
 }
 
@@ -356,18 +356,18 @@ a {
   justify-content: center;
   border-radius: 50%;
   align-items: center;
-  background-color: var(--purple_color);
+  background-color: var(--purple);
   width: 40px;
   height: 40px;
-  fill: var(--color_light_blue);
+  fill: var(--light_blue);
 }
 
 .li_social_media:hover {
-  background-color: var(--focus_hover_second_color);
+  background-color: var(--focus_hover);
 }
 
 .li_social_media:focus {
-  background-color: var(--focus_hover_second_color);
+  background-color: var(--focus_hover);
 }
 
 /*- stylizacja nasi klienci -*/
@@ -389,19 +389,19 @@ a {
   align-items: center;
   padding: 16px 32px;
   border-radius: 4px;
-  border: 1px solid var(--our_clients_color);
-  fill: var(--our_clients_color);
+  border: 1px solid var(--our_clients);
+  fill: var(--our_clients);
 }
 
 .list_item_our_customers:hover {
-  fill: var(--focus_hover_color);
-  border-color: var(--focus_hover_color);
+  fill: var(--focus_hover);
+  border-color: var(--focus_hove);
 }
 
 /*- stylizacje portfolio -*/
 
 .section_portfolio {
-  background-color: var(--background_color_white);
+  background-color: var(--background_white);
 }
 
 /*- stylizacja przycisków portfolio -*/
@@ -416,23 +416,23 @@ a {
 
 .buttons_portfolio {
   padding: 12px 24px;
-  color: var(--purple_color);
+  color: var(--purple);
   background-color: var(--background_buttons);
-  border: 1px solid var(--border_color);
+  border: 1px solid var(--border);
   border-radius: 4px;
   border-width: 1px;
 }
 
 .buttons_portfolio:focus {
   border: 1px solid transparent;
-  background-color: var(--focus_hover_color);
-  color: var(--white_color);
+  background-color: var(--focus_hover);
+  color: var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .buttons_portfolio:hover {
   border: 1px solid transparent;
-  background-color: var(--focus_hover_color);
-  color: var(--white_color);
+  background-color: var(--focus_hover);
+  color: var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -460,18 +460,18 @@ a {
 .type_app {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--light_gray_color);
+  color: var(--light_gray);
 }
 
 .styles_apps {
   padding: 32px 16px;
-  border-right: solid 1px var(--border_color);
-  border-bottom: solid 1px var(--border_color);
-  border-left: solid 1px var(--border_color);
+  border-right: solid 1px var(--border);
+  border-bottom: solid 1px var(--border);
+  border-left: solid 1px var(--border);
 }
 
 .li_apps_portfolio:hover {
-  background: var(--white_color);
+  background: var(--white);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
