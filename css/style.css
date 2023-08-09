@@ -180,13 +180,9 @@ a {
 }
 
 .li_social_media_footer:hover {
-  background-color: var(--purple_color);
-  fill: var(--color_light_blue);
 }
 
 .li_social_media_footer:focus {
-  background-color: var(--purple_color);
-  fill: var(--color_light_blue);
 }
 
 /*- stylizacja nagłówków sekcji -*/
