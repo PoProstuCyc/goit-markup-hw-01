@@ -32,7 +32,6 @@ body {
 header {
   border-bottom: 1px solid var(--border);
   padding: 24px 0;
-  position: relative;
 }
 
 footer {
@@ -94,6 +93,7 @@ a {
   display: flex;
   gap: 40px;
   list-style: none;
+  position: relative;
 }
 
 .navigate_list_item {
