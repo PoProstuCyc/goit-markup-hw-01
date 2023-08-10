@@ -32,6 +32,7 @@ body {
 header {
   border-bottom: 1px solid var(--border);
   padding: 24px 0;
+  position: relative;
 }
 
 footer {
@@ -109,6 +110,28 @@ a {
 
 .navigate_list_item:hover {
   color: var(--focus_hover);
+}
+
+.active_studio::after {
+  content: "";
+  bottom: 0;
+  position: absolute;
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--focus_hover);
+}
+
+.active_portfolio::after {
+  content: "";
+  bottom: 0;
+  position: absolute;
+  display: block;
+  width: 66px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--focus_hover);
 }
 
 .list_contacts {
