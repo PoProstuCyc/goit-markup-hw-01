@@ -110,6 +110,8 @@ a {
 
 .navigate_list_item:hover {
   color: var(--focus_hover);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms;
 }
 
 .active_studio::after {
@@ -154,6 +156,8 @@ a {
 
 .contacts_item:hover {
   color: var(--purple);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms;
 }
 /*- stylizacja stopki -*/
 .logo_footer {
@@ -205,6 +209,8 @@ a {
 
 .li_social_media_footer:hover {
   background-color: var(--focus_hover_sm_footer);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms;
 }
 
 .li_social_media_footer:focus {
@@ -265,6 +271,7 @@ a {
 }
 .button_index:hover {
   background-color: var(--focus_hover);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms;
 }
 
 /*- sekcja our goals -*/
@@ -387,6 +394,8 @@ a {
 
 .li_social_media:hover {
   background-color: var(--focus_hover);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms;
 }
 
 .li_social_media:focus {
@@ -419,6 +428,8 @@ a {
 .list_item_our_customers:hover {
   fill: var(--focus_hover);
   border-color: var(--focus_hover);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms;
 }
 
 /*- stylizacje portfolio -*/
@@ -457,6 +468,8 @@ a {
   background-color: var(--focus_hover);
   color: var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border background-color color 250ms;
 }
 
 /*- stylizacja aplikacji portfolio -*/
@@ -498,4 +511,6 @@ a {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms;
 }
