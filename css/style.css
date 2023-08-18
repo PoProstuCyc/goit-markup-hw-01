@@ -105,10 +105,7 @@ a {
   color: var(--dark);
 }
 
-.navigate_list_item:focus {
-  color: var(--focus_hover);
-}
-
+.navigate_list_item:focus,
 .navigate_list_item:hover {
   color: var(--focus_hover);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
@@ -151,10 +148,7 @@ a {
   color: var(--dark);
 }
 
-.contacts_item:focus {
-  color: var(--purple);
-}
-
+.contacts_item:focus,
 .contacts_item:hover {
   color: var(--purple);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
@@ -208,16 +202,11 @@ a {
   height: 40px;
 }
 
+.li_social_media_footer:focus,
 .li_social_media_footer:hover {
   background-color: var(--focus_hover_sm_footer);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms;
-}
-
-.li_social_media_footer:focus {
-  background-color: var(--focus_hover_sm_footer);
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms;
+  transition: 250ms;
 }
 
 /*- stylizacja nagłówków sekcji -*/
@@ -269,12 +258,67 @@ a {
   display: block;
 }
 
-.button_index:focus {
-  background-color: var(--focus_hover);
-}
+.button_index:focus,
 .button_index:hover {
   background-color: var(--focus_hover);
   transition: cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms;
+}
+
+.is_hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 500ms;
+}
+
+.modal {
+  width: 408px;
+  height: 584px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background: var(--white);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+
+.close-button {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  top: 10px;
+  background-color: var(--border);
+  fill: var(--dark);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.close-button:hover,
+.close-button:active {
+  background-color: var(--focus_hover);
+  fill: var(--white);
+}
+
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
 }
 
 /*- sekcja our goals -*/
@@ -395,14 +439,11 @@ a {
   fill: var(--light_blue);
 }
 
+.li_social_media:focus,
 .li_social_media:hover {
   background-color: var(--focus_hover);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms;
-}
-
-.li_social_media:focus {
-  background-color: var(--focus_hover);
+  transition: 250ms;
 }
 
 /*- stylizacja nasi klienci -*/
@@ -428,6 +469,7 @@ a {
   fill: var(--our_clients);
 }
 
+.list_item_our_customers:hover,
 .list_item_our_customers:hover {
   fill: var(--focus_hover);
   border-color: var(--focus_hover);
@@ -460,19 +502,13 @@ a {
   border-width: 1px;
 }
 
-.buttons_portfolio:focus {
-  border: 1px solid transparent;
-  background-color: var(--focus_hover);
-  color: var(--white);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+.buttons_portfolio:focus,
 .buttons_portfolio:hover {
   border: 1px solid transparent;
   background-color: var(--focus_hover);
   color: var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border background-color color 250ms;
+  transition: 250ms;
 }
 
 /*- stylizacja aplikacji portfolio -*/
@@ -545,61 +581,4 @@ a {
 
 .li_apps_portfolio:hover .text_animation {
   transform: translateY(0);
-}
-
-.is_hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
-  transition: opacity 500ms;
-}
-
-.modal {
-  width: 408px;
-  height: 584px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 4px;
-  background: var(--white);
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-}
-
-.close-button {
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  right: 10px;
-  top: 10px;
-  background-color: var(--border);
-  fill: var(--dark);
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  cursor: pointer;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.close-button:hover,
-.close-button:active {
-  background-color: var(--focus_hover);
-  fill: var(--white);
-}
-
-.is-hidden {
-  visibility: hidden;
-  pointer-events: none;
-  opacity: 0;
 }
