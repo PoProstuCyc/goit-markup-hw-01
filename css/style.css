@@ -216,6 +216,8 @@ a {
 
 .li_social_media_footer:focus {
   background-color: var(--focus_hover_sm_footer);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms;
 }
 
 /*- stylizacja nagłówków sekcji -*/
@@ -577,11 +579,12 @@ a {
 .close-button {
   display: flex;
   position: absolute;
+  justify-content: center;
+  text-align: center;
   right: 10px;
   top: 10px;
-  background-color: var();
-  fill: var(--white);
-  text-align: center;
+  background-color: var(--border);
+  fill: var(--dark);
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -592,7 +595,7 @@ a {
 
 .close-button:hover,
 .close-button:active {
-  background-color: var(--dark);
+  background-color: var(--focus_hover);
   fill: var(--white);
 }
 
