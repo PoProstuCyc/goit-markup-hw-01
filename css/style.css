@@ -569,7 +569,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 4px;
-  background: var(Kolor zgodnie z Twoimi);
+  background: var(--white);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
@@ -579,8 +579,8 @@ a {
   position: absolute;
   right: 10px;
   top: 10px;
-  background-color: var(Kolor zgodnie z Twoimi);
-  color: var(Kolor zgodnie z Twoimi);
+  background-color: var();
+  fill: var(--white);
   text-align: center;
   width: 24px;
   height: 24px;
