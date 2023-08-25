@@ -263,7 +263,7 @@ a {
   background-color: var(--focus_hover);
   transition: cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms;
 }
-
+/*- modal -*/
 .is_hidden {
   visibility: hidden;
   opacity: 0;
@@ -319,6 +319,12 @@ a {
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
+}
+
+/*- folmularz modal -*/
+
+.form_modal {
+  padding: 16px 24px;
 }
 
 /*- sekcja our goals -*/
