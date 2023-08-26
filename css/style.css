@@ -323,7 +323,14 @@ a {
 
 /*- folmularz modal -*/
 
+textarea {
+  resize: none;
+  width: 360px;
+  height: 120px;
+}
+
 .form_modal {
+  padding: 24px;
 }
 
 /*- sekcja our goals -*/
