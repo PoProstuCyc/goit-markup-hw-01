@@ -562,6 +562,10 @@ label {
   transition: cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms;
 }
 
+.icon_button {
+  margin-left: 16px;
+}
+
 /*- sekcja our goals -*/
 
 .section_our_goals {
