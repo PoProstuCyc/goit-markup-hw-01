@@ -419,16 +419,17 @@ label {
   border-color: var(--purple);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  fill: var(--purple);
 }
 
 .form_label:focus-within {
   border-color: var(--purple);
   outline: none;
+  fill: var(--purple);
 }
 
 .icon_label {
   margin-right: 4px;
-  fill: var(--dark);
 }
 
 .icon_label:hover,
