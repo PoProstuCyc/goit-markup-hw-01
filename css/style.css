@@ -247,8 +247,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.64px;
   margin-left: 24px;
+  cursor: pointer;
 }
 
+.button_footer:focus,
+.button_footer:hover {
+  background-color: var(--focus_hover);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms;
+}
 /*- stylizacja nagłówków sekcji -*/
 
 .heading {
