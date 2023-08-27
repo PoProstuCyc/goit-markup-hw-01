@@ -209,6 +209,46 @@ a {
   transition: background-color 250ms;
 }
 
+.mail_footer {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background-color: transparent;
+  padding: 8px 16px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  color: var(--whites);
+}
+
+.mail_footer:hover {
+  outline: none;
+}
+
+.subscribe_footer {
+  margin-left: 80px;
+}
+
+.form_footer {
+  display: flex;
+}
+
+.button_footer {
+  display: flex;
+  padding: 8px 16px;
+  word-spacing: 16px;
+  background-color: var(--purple);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  fill: var(--white);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  margin-left: 24px;
+}
+
 /*- stylizacja nagłówków sekcji -*/
 
 .heading {
@@ -510,6 +550,10 @@ label {
   border-radius: 4px;
   border: none;
   color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 
 .buttion_modal:focus,
