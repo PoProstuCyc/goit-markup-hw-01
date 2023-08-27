@@ -415,6 +415,69 @@ label {
   transition: 250ms;
   outline: none;
 }
+
+.checkbox {
+  display: inline-flex;
+}
+
+.checkbox_control {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  transition: box-shadow 0.15s ease-in;
+}
+
+.checkbox_input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.checkbox_label {
+  transition: background-color 0.2s ease-in, box-shadow 0.15s ease-in,
+    border-color 0, 15s ease-in;
+  display: block;
+  width: 100%;
+  background-color: var(--white);
+  border: 1px solid var(--backdrop);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.checkbox_label:hover {
+  box-shadow: 0 0 3px 0 var(--purple);
+  border-color: var(--purple);
+}
+
+.checkbox_label::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 4px;
+  top: 3px;
+  width: 55%;
+  height: 40%;
+  transform: rotate(-52deg);
+  border-width: 0 0 2px 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.checkbox_input:checked + .checkbox_label {
+  border-color: var(--purple);
+  background-color: var(--purple);
+}
+
+.checkbox_input:checked + .checkbox_label::after {
+  border-color: var(--white);
+}
+
+/*- stylizacje checkboxa -*/
+
 /*- sekcja our goals -*/
 
 .section_our_goals {
