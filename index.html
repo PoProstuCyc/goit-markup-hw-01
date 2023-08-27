@@ -66,7 +66,6 @@
           <button type="button" class="button_index" data-modal-open>
             Order Service
           </button>
-
           <div class="backdrop is-hidden" data-modal="">
             <div class="modal">
               <button type="button" class="close-button" data-modal-close="">
@@ -75,36 +74,46 @@
                 </svg>
               </button>
               <div>
-                <p>Leave your contacts and we will call you back</p>
+                <p class="header_modal">
+                  Leave your contacts and we will call you back
+                </p>
                 <form name="form_modal" class="form_modal">
-                  <label>
-                    name
+                  <p class="header_label">Name</p>
+                  <label class="form_label">
+                    <svg class="icon_label" width="18px" height="18px">
+                      <use href="./images/icons.svg#name_icon"></use>
+                    </svg>
                     <input name="name" type="name" required />
                   </label>
-                  <br />
-                  <label>
-                    phone <input name="tel" type="name" required />
+                  <p class="header_label">Phone</p>
+                  <label class="form_label">
+                    <svg class="icon_label" width="18px" height="24px">
+                      <use href="./images/icons.svg#phone_icon"></use>
+                    </svg>
+                    <input name="tel" type="tel" required />
                   </label>
-                  <br />
-                  <label>
-                    Email
-                    <input name="email" name="email" required />
+                  <p class="header_label">Email</p>
+                  <label class="form_label">
+                    <svg class="icon_label" width="18px" height="24px">
+                      <use href="./images/icons.svg#email_icon"></use>
+                    </svg>
+                    <input name="email" type="email" required />
                   </label>
-                  <br />
+                  <p class="header_label">Comment</p>
                   <label>
-                    comment
                     <textarea
+                      class="form_comment"
                       name="feedback"
                       placeholder="Text input"
                     ></textarea>
                   </label>
-                  <br />
                   <label>
                     <input type="checkbox" required />
-                    I accept the terms and conditions of the
-                    <a>Privacy Policy</a>
+                    <p>
+                      I accept the terms and conditions of the
+                      <a>Privacy Policy</a>
+                    </p>
                   </label>
-
                   <button type="submit">sent</button>
                 </form>
               </div>
