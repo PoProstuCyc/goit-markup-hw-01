@@ -90,7 +90,13 @@
                     <svg class="icon_label" width="18px" height="24px">
                       <use href="./images/icons.svg#phone_icon"></use>
                     </svg>
-                    <input name="tel" type="tel" required />
+                    <input
+                      name="tel"
+                      type="tel"
+                      required
+                      pattern="[0-9]{3}[0-9]{3}[0-9]{3}"
+                      title="numer musi posiadać dziewięć liczb"
+                    />
                   </label>
                   <p class="header_label">Email</p>
                   <label class="form_label">
