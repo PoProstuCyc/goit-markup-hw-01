@@ -501,6 +501,23 @@ label {
   text-decoration-line: underline;
 }
 
+.buttion_modal {
+  align-items: center;
+  width: 169px;
+  height: 56px;
+  background-color: var(--purple);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: var(--white);
+}
+
+.buttion_modal:focus,
+.buttion_modal:hover {
+  background-color: var(--focus_hover);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms;
+}
+
 /*- sekcja our goals -*/
 
 .section_our_goals {
