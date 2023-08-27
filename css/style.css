@@ -313,6 +313,8 @@ a {
 .close-button:active {
   background-color: var(--focus_hover);
   fill: var(--white);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .is-hidden {
@@ -323,16 +325,96 @@ a {
 
 /*- folmularz modal -*/
 
-textarea {
-  resize: none;
-  width: 360px;
-  height: 120px;
+input {
+  border: none;
+  width: 100%;
+}
+
+input:hover {
+  outline: none;
+}
+
+label {
+  justify-content: center;
+  align-items: center;
+}
+
+.header_modal {
+  margin-top: 72px;
+  color: var(--dark);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 8px;
+}
+
+.header_label {
+  color: var(--our_clients);
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.166;
+  letter-spacing: 0.48px;
+  margin-top: 8px;
+  margin-bottom: 4px;
 }
 
 .form_modal {
-  padding: 24px;
+  margin: 0 24px;
 }
 
+.form_label {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border: 2px solid var(--backdrop);
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.form_label:hover,
+.form_label:focus {
+  border-color: var(--purple);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
+}
+
+.form_label:focus-within {
+  border-color: var(--purple);
+  outline: none;
+}
+
+.icon_label {
+  margin-right: 4px;
+  fill: var(--dark);
+}
+
+.icon_label:hover,
+.icon_label:focus {
+  fill: var(--purple);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
+}
+
+.form_comment {
+  resize: none;
+  width: 100%;
+  height: 120px;
+  border: 2px solid var(--backdrop);
+  padding: 8px 16px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form_comment:hover,
+.form_comment:focus {
+  border-color: var(--purple);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
+  outline: none;
+}
 /*- sekcja our goals -*/
 
 .section_our_goals {
