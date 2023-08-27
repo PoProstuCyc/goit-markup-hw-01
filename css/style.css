@@ -374,9 +374,6 @@ a {
 input {
   border: none;
   width: 100%;
-}
-
-input:hover {
   outline: none;
 }
 
@@ -430,7 +427,6 @@ label {
 
 .form_label:focus-within {
   border-color: var(--purple);
-  outline: none;
   fill: var(--purple);
 }
 
@@ -452,7 +448,6 @@ label {
   border: 2px solid var(--backdrop);
   padding: 8px 16px;
   border-radius: 4px;
-  outline: none;
 }
 
 .form_comment:hover,
@@ -460,7 +455,6 @@ label {
   border-color: var(--purple);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
-  outline: none;
 }
 
 /*- stylizacje checkboxa -*/
