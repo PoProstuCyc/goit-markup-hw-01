@@ -833,3 +833,29 @@ label {
 .li_apps_portfolio:hover .text_animation {
   transform: translateY(0);
 }
+
+@media screen and (min-width: 320px) {
+  html {
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    max-width: 1200px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    max-width: auto;
+  }
+}
