@@ -837,10 +837,6 @@ label {
     padding: 0;
   }
 
-  body {
-    width: 100vw;
-  }
-
   h2 {
     font-family: Roboto;
     font-size: 36px;
@@ -854,7 +850,7 @@ label {
   }
 
   .container {
-    max-width: 100vw;
+    max-width: 100%;
   }
   .list_navigate {
     display: none;
