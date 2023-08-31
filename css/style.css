@@ -834,7 +834,18 @@ label {
 @media (min-width: 0px) and (max-width: 786px) {
   * {
     margin: 0;
-    padding: 0;
+  }
+
+  html {
+    width: 100vw;
+  }
+
+  header {
+    max-width: 100vw;
+  }
+
+  footer {
+    max-width: 100vw;
   }
 
   h2 {
@@ -850,10 +861,7 @@ label {
   }
 
   .container {
-    max-width: 100%;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100vw;
   }
   .list_navigate {
     display: none;
@@ -926,19 +934,24 @@ label {
 
   .list_our_team {
     display: block;
-    width: 100%;
+    width: 100vw;
   }
 
   .our_team_list_item {
     width: 264px;
     display: block;
+    align-items: center;
     margin-bottom: 72px;
+    background-size: auto;
     margin-left: auto;
     margin-right: auto;
   }
   .list_our_customers {
+    display: inline-block;
     width: 100%;
     column-count: 2;
+    margin-left: auto;
+    margin-right: auto;
   }
   .row_items {
     display: block;
