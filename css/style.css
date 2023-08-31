@@ -834,10 +834,11 @@ label {
 @media (min-width: 0px) and (max-width: 786px) {
   * {
     margin: 0;
+    padding: 0;
   }
 
   body {
-    max-width: 100%;
+    width: 100vw;
   }
 
   h2 {
@@ -939,7 +940,7 @@ label {
     margin-right: auto;
   }
   .list_our_customers {
-    display: inline-block;
+    display: block;
     width: 100%;
     column-count: 2;
     margin-left: auto;
