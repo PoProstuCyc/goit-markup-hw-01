@@ -830,6 +830,21 @@ label {
 .li_apps_portfolio:hover .text_animation {
   transform: translateY(0);
 }
+
+@media (min-width: 0px) and (max-width: 786px) {
+  .logo {
+    left: 50%;
+    right: 50%;
+    position: absolute;
+  }
+  .list_navigate {
+    display: none;
+  }
+  .contacts {
+    display: none;
+  }
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
