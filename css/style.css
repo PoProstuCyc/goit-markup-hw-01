@@ -831,7 +831,7 @@ label {
   transform: translateY(0);
 }
 
-@media (min-width: 480px) and (max-width: 786px) {
+@media (min-width: 0px) and (max-width: 786px) {
   * {
     margin: 0;
   }
