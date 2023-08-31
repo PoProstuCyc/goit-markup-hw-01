@@ -862,8 +862,9 @@ label {
     display: none;
   }
   .section_order_service {
-    background-image: 100vw;
-    max-width: 100vw;
+    padding: auto;
+    width: 100vw;
+    height: auto;
     margin: 0;
   }
   .main_text {
