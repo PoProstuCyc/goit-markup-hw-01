@@ -953,6 +953,26 @@ label {
     margin-left: auto;
     margin-right: auto;
   }
+  .row_items {
+    display: block;
+  }
+
+  .container_web_footer {
+    margin-bottom: 72px;
+  }
+  .logo_footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .text_footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 }
 
 /*
