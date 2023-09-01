@@ -1079,6 +1079,10 @@ label {
   .menu {
     display: none;
   }
+  .logo_mobile {
+    position: absolute;
+    left: 16px;
+  }
 }
 
 .menu .link {
@@ -1093,10 +1097,11 @@ label {
 }
 
 .menu-toggle {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  right: 16px;
   margin: 0;
   padding: 0;
   background-color: transparent;
