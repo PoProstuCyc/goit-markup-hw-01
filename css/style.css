@@ -871,6 +871,10 @@ label {
     display: none;
   }
 
+  .section_order_service {
+    height: auto;
+  }
+
   .main_text {
     max-width: 320px;
     text-align: center;
