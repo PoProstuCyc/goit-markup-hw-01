@@ -872,6 +872,7 @@ label {
   }
 
   .section_order_service {
+    max-width: 100vw;
     height: auto;
   }
 
