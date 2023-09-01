@@ -1049,8 +1049,9 @@ label {
 */
 
 .container_header_mobile {
-  min-width: 320px;
-  max-width: 1170px;
+  position: relative;
+  min-width: 0px;
+  max-width: 768px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
