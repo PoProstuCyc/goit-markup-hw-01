@@ -1048,7 +1048,7 @@ label {
 }
 */
 
-.container {
+.container_header_mobile {
   min-width: 320px;
   max-width: 1170px;
   padding-left: 15px;
@@ -1062,7 +1062,7 @@ label {
     0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
 }
 
-.page-header .container {
+.page-header .container_header_mobile {
   display: flex;
   align-items: center;
   justify-content: flex-end;
