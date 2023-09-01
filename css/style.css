@@ -850,13 +850,16 @@ label {
   }
 }
 
-@media (min-width: 786px) {
+@media screen and (min-width: 768px) {
   .page-header {
     display: none;
   }
+  .header_desktop {
+    display: block;
+  }
 }
 
-@media (min-width: 0px) and (max-width: 786px) {
+@media (min-width: 0px) and (max-width: 768px) {
   * {
     margin: 0;
   }
@@ -888,6 +891,7 @@ label {
   .header_desktop {
     display: none;
   }
+
   .section_order_service {
     padding: auto;
     width: 100vw;
@@ -1076,7 +1080,7 @@ label {
   list-style: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .menu {
     display: none;
   }
