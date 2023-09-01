@@ -885,12 +885,7 @@ label {
   .contacts {
     display: none;
   }
-  .section_order_service {
-    padding: auto;
-    width: 100vw;
-    height: auto;
-    margin-bottom: 0;
-  }
+
   .main_text {
     max-width: 320px;
     text-align: center;
