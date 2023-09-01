@@ -995,7 +995,8 @@ label {
   }
 
   .text_footer {
-    width: 268px;
+    text-align: justify;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-size: 16px;
