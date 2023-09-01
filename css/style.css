@@ -1054,7 +1054,6 @@ body {
 }
 
 .page-header .container {
-  min-height: 80px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -1071,6 +1070,11 @@ body {
   .menu {
     display: none;
   }
+
+  .logo {
+    position: absolute;
+    left: 16px;
+  }
 }
 
 .menu .link {
@@ -1085,8 +1089,6 @@ body {
 }
 
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
