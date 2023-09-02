@@ -34,8 +34,8 @@ header {
   border-bottom: 1px solid var(--border);
   padding: 24px 0;
   position: relative;
+  align-items: center;
 }
-
 footer {
   background-color: var(--background_dark);
   display: flex;
@@ -69,6 +69,8 @@ a {
 /*- style nagłówku -*/
 
 .logo {
+  margin-top: auto;
+  margin-bottom: auto;
   color: var(--dark);
   font-family: Raleway;
   font-size: 18px;
@@ -87,9 +89,9 @@ a {
 }
 
 .navigate {
+  margin-top: auto;
+  margin-bottom: auto;
   display: flex;
-  margin-right: 332px;
-  align-items: center;
 }
 
 .list_navigate {
@@ -136,9 +138,13 @@ a {
   background-color: var(--focus_hover);
 }
 
+.contacts {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
 .list_contacts {
-  position: absolute;
-  right: 56px;
   display: flex;
   column-gap: 40px;
   align-items: center;
@@ -846,9 +852,9 @@ label {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1201px) {
   .container {
-    width: 1158px;
+    width: 1201px;
   }
 }
 
@@ -1165,15 +1171,26 @@ label {
   text-decoration: none;
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 769px) and (max-width: 1201px) {
   .header_desktop {
-    display: flex;
+    align-items: baseline;
   }
   .header_mobile {
     display: none;
   }
   .list_contacts {
     flex-direction: column;
-    justify-content: baseline;
+  }
+  .list_item_our_customers {
+    flex-wrap: wrap;
+  }
+  .list_our_goals {
+    flex-wrap: wrap;
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icons_our_goals {
+    display: none;
   }
 }
