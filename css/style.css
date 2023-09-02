@@ -1046,6 +1046,14 @@ label {
     margin-left: auto;
     margin-right: auto;
   }
+  .list_buttons_portfolio {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .apps_portfolio {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (min-device-pixel-ratio: 2),
