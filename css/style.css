@@ -865,10 +865,6 @@ label {
 }
 
 @media (min-width: 0px) and (max-width: 769px) {
-  * {
-    margin: 0;
-  }
-
   html {
     width: 100vw;
   }
@@ -1193,9 +1189,7 @@ label {
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  background-color: #3f51b5;
-  z-index: 999;
-
+  background-color: var(--white);
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -1208,7 +1202,7 @@ label {
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #fff;
+  color: var(--dark);
 }
 
 .mobile-menu {
@@ -1220,6 +1214,57 @@ label {
 .mobile-menu .link {
   display: block;
   padding: 10px;
-  color: #fff;
   text-decoration: none;
+}
+
+.link {
+  color: var(--dark);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.contacts-menu {
+  margin-top: 90px;
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.mail-mobile-menu {
+  display: block;
+  color: var(--dark);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.tel-mobile-menu {
+  margin-top: auto;
+  display: block;
+  color: var(--purple);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111;
+  letter-spacing: 0.72px;
+  margin-bottom: 40px;
+}
+
+.actual_web {
+  color: var(--purple);
+}
+
+.social-media-menu {
+  margin-top: 48px;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  gap: 56px;
+  margin-bottom: auto;
 }
