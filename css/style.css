@@ -52,7 +52,6 @@ a {
 }
 
 .container {
-  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -894,10 +893,6 @@ label {
     margin-right: auto;
   }
 
-  .container {
-    padding-bottom: 24px;
-  }
-
   .header_desktop {
     display: none;
   }
@@ -980,18 +975,12 @@ label {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .row_items {
-    display: block;
-  }
 
   .container_web_footer {
     margin-bottom: 72px;
   }
   .logo_footer {
-    width: 100%;
     margin-left: auto;
-    margin-right: auto;
-    text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -1045,6 +1034,11 @@ label {
   .form_footer {
     display: block;
   }
+  .footer_items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .button_footer {
     margin-top: 16px;
     margin-left: auto;
@@ -1067,6 +1061,7 @@ label {
     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/background_photo@2x.jpg);
     background-position: 50% 50%;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1120,6 +1115,11 @@ label {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .footer_items {
+    display: flex;
+  }
+
   .form_footer {
     display: flex;
   }
@@ -1129,9 +1129,17 @@ label {
   }
 }
 
-/* style mobile header  */
+.container {
+  min-width: 320px;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.page-header .container_header_mobile {
+.page-header .containera {
+  min-height: 80px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -1144,13 +1152,9 @@ label {
   list-style: none;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 767px) {
   .menu {
     display: none;
-  }
-  .logo_mobile {
-    position: absolute;
-    left: 16px;
   }
 }
 
@@ -1166,11 +1170,12 @@ label {
 }
 
 .menu-toggle {
-  position: absolute;
+  min-height: 40px;
+  min-width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  right: 16px;
+
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -1180,7 +1185,7 @@ label {
   outline: none;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .menu-toggle {
     display: none;
   }
