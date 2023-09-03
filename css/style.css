@@ -1268,3 +1268,14 @@ label {
   gap: 56px;
   margin-bottom: auto;
 }
+
+.social_media_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--purple);
+  fill: var(--light_blue);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
