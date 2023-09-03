@@ -897,12 +897,10 @@ label {
     display: none;
   }
 
-  .section_order_service {
-    padding: auto;
-    width: 100vw;
-    height: auto;
-    margin-bottom: 0;
+  .row_items {
+    justify-content: space-between;
   }
+
   .main_text {
     max-width: 320px;
     text-align: center;
@@ -1129,17 +1127,9 @@ label {
   }
 }
 
-.container {
-  min-width: 320px;
-  max-width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* style mobile header  */
 
-.page-header .containera {
-  min-height: 80px;
+.page-header .container_header_mobile {
   display: flex;
   align-items: center;
   justify-content: flex-end;
